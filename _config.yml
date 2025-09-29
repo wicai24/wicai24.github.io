@@ -1,0 +1,103 @@
+# Site settings
+locale: en-US
+title: "Will's Blog"
+name: "Will's Blog"
+description: Technical blogs on LLM related concepts and implementations.
+url: "https://wicai24.github.io"
+baseurl: ""
+repository: "wicai24/wicai24.github.io"
+permalink: /:categories/:title/
+paginate: 5
+paginate_path: /page:num/
+
+# Theme
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: default
+logo: 
+author_profile: true
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-include-cache
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Collections
+collections:
+  docs:
+    output: true
+    permalink: /:collection/:path/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      share: true
+      comments: false
+  - scope:
+      path: ""
+      type: docs
+    values:
+      layout: single
+      author_profile: true
+      permalink: /:collection/:path/
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+# Navigation
+include:
+  - _pages
+
+# Author profile
+author:
+  bio: >-
+    Technical blogs on LLM related concepts and implementations.
+  links:
+    - label: GitHub
+      icon: fab fa-github
+      url: https://github.com/wicai24
+    - label: Google Scholar
+      icon: fab fa-google
+      url: https://scholar.google.com/citations?user=rP3Ed1oAAAAJ&hl=en
+
+# Footer
+footer_links:
+  - label: Twitter
+    icon: fab fa-twitter
+    url: https://twitter.com/
+
+# Enable search
+search: true
+search_full_content: true
+
+# Analytics (uncomment and configure as needed)
+# analytics:
+#   provider: "google-gtag"
+#   google:
+#     tracking_id: "UA-XXXXXX-X"
+#     anonymize_ip: true
+
+# Exclude development files
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - tmp
+  - vendor/bundle
+  - README.md
+
+# Sass
+sass:
+  sass_dir: _sass
+  style: compressed
