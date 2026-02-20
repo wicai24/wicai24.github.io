@@ -1,7 +1,7 @@
 main:
   - title: Home
     url: /
-  - title: Posts
+  - title: Misc
+    url: /misc/
+  - title: Blog
     url: /posts/
-  - title: Tags
-    url: /tags/

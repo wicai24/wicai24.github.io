@@ -3,3 +3,80 @@
 
 @import "minimal-mistakes/skins/default"; // Pick a theme skin
 @import "minimal-mistakes";
+
+.post-list-item {
+  margin-bottom: 2em;
+
+  h2 {
+    margin-bottom: 0.1em;
+    font-size: 1.3em;
+
+    a {
+      text-decoration: none;
+    }
+  }
+
+  .post-date {
+    font-size: 0.85em;
+    color: #888;
+    display: block;
+    margin-bottom: 0.4em;
+  }
+
+  .post-excerpt {
+    margin-top: 0;
+    color: #555;
+  }
+}
+
+.page__title {
+  font-size: 1.8em;
+  text-align: left;
+}
+
+.masthead__title,
+.site-title {
+  display: none !important;
+}
+
+// LinkedIn icon - black and white
+a[href*="linkedin.com"] .fab {
+  color: #333;
+}
+
+// Google Scholar - replace FA icon with custom PNG
+a[href*="scholar.google.com"] i {
+  display: none;
+}
+
+a[href*="scholar.google.com"]::before {
+  content: "";
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  background-image: url('/icons8-google-scholar-96.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+}
+
+.sidebar {
+  opacity: 1 !important;
+}
+
+.author__avatar {
+  margin-bottom: 1em;
+  display: block;
+  text-align: center;
+
+  img {
+    border-radius: 0;
+    border: none;
+    padding: 0;
+    box-shadow: none;
+    outline: none;
+    pointer-events: none;
+    width: 100%;
+    max-width: 100%;
+  }
+}

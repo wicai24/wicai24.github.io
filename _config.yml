@@ -1,8 +1,8 @@
 # Site settings
 locale: en-US
-title: "Will's Blog"
-name: "Will's Blog"
-description: Technical blogs on LLM related concepts and implementations.
+title: "Will Cai"
+name: "Will Cai"
+description: Personal website of Will Cai.
 url: "https://wicai24.github.io"
 baseurl: ""
 repository: "wicai24/wicai24.github.io"
@@ -37,9 +37,9 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       read_time: true
-      share: true
+      share: false
       comments: false
   - scope:
       path: ""
@@ -61,21 +61,23 @@ include:
 
 # Author profile
 author:
-  bio: >-
-    Technical blogs on LLM related concepts and implementations.
+  avatar: "/pfp2.pic.jpg"
+
   links:
-    - label: GitHub
-      icon: fab fa-github
-      url: https://github.com/wicai24
+    - label: Email
+      icon: fas fa-envelope
+      url: mailto:me@willc.ai
+    - label: LinkedIn
+      icon: fab fa-linkedin
+      url: https://www.linkedin.com/in/will-cai-7a551717a/
     - label: Google Scholar
       icon: fab fa-google
       url: https://scholar.google.com/citations?user=rP3Ed1oAAAAJ&hl=en
 
 # Footer
-footer_links:
-  - label: Twitter
-    icon: fab fa-twitter
-    url: https://twitter.com/
+atom_feed:
+  hide: true
+footer_links: []
 
 # Enable search
 search: true
