@@ -118,7 +118,7 @@ a[href*="scholar.google.com"]::before {
     overflow-y: visible !important;
   }
 
-  .page {
+  .sidebar.sticky ~ .page {
     float: right !important;
     width: calc(100% - 145px) !important;
   }
