@@ -4,6 +4,6 @@ title: Misc
 permalink: /misc/
 author_profile: false
 ---
-In my spare time, I enjoy watching movies, lifting weights, or going bouldering. I also like going hiking and playing golf with friends. I'm into a lot of esports including League of Legends, competitive programming, and geoguessr.
+In my spare time, I enjoy watching movies, lifting weights, and going bouldering. I also like hiking and playing golf with friends. I’m into esports as well, including League of Legends, competitive programming, and GeoGuessr.
 
-I also plan on going back to reading more Japanese literature, psychoanalysis, and math textbooks. I enjoy thinking about our future with AI, especially how we think about AI morally and legally. Happy to chat about these!
+I’m planning to get back into reading Japanese literature, psychoanalysis, and math textbooks. I also enjoy thinking about the future of AI, especially how we treat AI morally and legally. Happy to chat about any of these!
