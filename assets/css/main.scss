@@ -83,7 +83,7 @@ a[href*="scholar.google.com"]::before {
   }
 }
 
-// Always hide Follow button and show links directly, at any width
+// Always hide Follow button and show links directly
 .author__urls-wrapper {
   button.btn {
     display: none !important;
@@ -101,68 +101,35 @@ a[href*="scholar.google.com"]::before {
   }
 }
 
-// Force desktop sidebar layout between 768px and 1023px
-@media (min-width: 768px) and (max-width: 1023px) {
-  .sidebar {
-    float: left !important;
-    width: calc(200px - 1em) !important;
-  }
-
-  .page {
-    float: right !important;
-    width: calc(100% - 200px) !important;
-    padding-right: 200px !important;
-  }
-}
-
-// Mobile layout: pfp left, socials right
-@media (max-width: 767px) {
+// Below desktop: same layout as desktop (sidebar left, content right) but smaller
+@media (max-width: 1023px) {
   #main {
     padding-top: 0 !important;
   }
 
   .sidebar.sticky {
+    float: left !important;
     position: relative !important;
     top: auto !important;
+    width: 130px !important;
     margin-top: 0 !important;
     padding-top: 0 !important;
     max-height: none !important;
     overflow-y: visible !important;
   }
 
-  .h-card {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    gap: 1.5em;
-  }
-
-  .author__avatar {
-    flex: 0 0 100px;
-    margin: 0;
-
-    img {
-      display: block;
-      width: 100px;
-    }
+  .page {
+    float: right !important;
+    width: calc(100% - 145px) !important;
   }
 
   .author__content {
-    display: none;
+    display: none !important;
   }
 
-  .author__urls-wrapper {
-    flex: 1;
-    display: flex;
-    align-items: center;
-
-    .author__urls {
-      justify-content: center;
-
-      li {
-        font-size: 1.1em;
-        padding: 1px 0;
-      }
-    }
+  .author__urls {
+    align-items: flex-start !important;
+    padding-left: 0 !important;
+    margin-left: 0 !important;
   }
 }
