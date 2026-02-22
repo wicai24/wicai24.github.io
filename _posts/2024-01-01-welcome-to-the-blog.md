@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Introduction"
-date: 2026-02-20 12:00:00 -0700
+date: 2026-02-15 12:00:00 -0700
 categories: [journal]
 tags: [introduction]
 excerpt: "Why and what I post."
