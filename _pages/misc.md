@@ -4,7 +4,7 @@ title: Misc
 permalink: /misc/
 author_profile: false
 ---
-I grew up in Shenzhen and spent time in Hong Kong and Charlottesville. I’m now based in the Bay Area. My Chinese name is Haoyang Cai.
+I grew up in Shenzhen and spent time in Hong Kong and Charlottesville. I’m now based in the Bay Area. My Chinese name is Haoyang Cai (蔡昊洋, pronounced “how-yang tsai”).
 
 Outside of research, you can find me lifting weights, bouldering, and playing golf. I’m also into League of Legends, competitive programming, chess, and GeoGuessr.
 
