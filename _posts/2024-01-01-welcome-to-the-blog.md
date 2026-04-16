@@ -7,6 +7,6 @@ tags: [introduction]
 excerpt: "Why and what I post."
 ---
 
-I've always been reluctant to post publicly out of fear of making mistakes, but I think it's good to step out of that comfort zone. Hopefully this also keeps me accountable on side projects. Not sure how it'll go, but let's see!
+I've always been reluctant to post publicly out of fear of making mistakes, but I think it's good to step out of that comfort zone. Hopefully this also keeps me accountable on side projects.
 
-I plan to mostly write about **my thoughts on a future with AI**, **learning technical topics outside my research** and **discovering new vulnerabilities of AI systems**.
+I plan to write mainly about **how we treat AI morally and legally** and **discovering new vulnerabilities in AI systems**, along with exploring other technical topics.
