@@ -6,6 +6,6 @@ author_profile: true
 classes: landing
 ---
 
-Hi, I’m an incoming EECS PhD student at MIT. I’m currently a Research Fellow at Anthropic. I did my BA and MS at UC Berkeley where I was advised by Dawn Song.
+Hi, I’m an incoming EECS PhD student at MIT. I was an a Research Fellow at Anthropic. I did my BA and MS at UC Berkeley where I was advised by Dawn Song.
 
-I’m broadly interested in AI safety and post-training for LLMs. Lately, I’ve been thinking about distillation in adversarial settings, and about how to incorporate existing LLMs into the post-training loop, especially for data curation and reward assignment.
+I’m broadly interested in LLM safety and post-training. Lately, I’ve been thinking about more sample-efficient ways to do RL, especially by getting denser reward signals from rollouts, and making LLMs better at AI research itself.
