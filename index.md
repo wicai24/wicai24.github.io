@@ -6,6 +6,8 @@ author_profile: true
 classes: landing
 ---
 
-Hi, I’m an incoming EECS PhD at MIT. This summer, I'm working on continual learning at DeepSeek. Previously, I was a research fellow at Anthropic working on a series of (anti)distillation research. I did my BA and MS from UC Berkeley, advised by Dawn Song.
+Hi, I’m an incoming EECS PhD at MIT. This summer, I'm working on continual learning at DeepSeek. Previously, I was a research fellow at Anthropic researching model distillation. I did my BA and MS from UC Berkeley, advised by Dawn Song.
 
-I’m broadly interested in LLM safety and post-training. Lately, I’ve been thinking about how to get denser reward signals from RL rollouts, and how to make LLMs better at AI research itself.
+I’m broadly interested in LLM safety and post-training. Lately, I’ve been thinking about how to get denser reward signals from RL rollouts, and how to make LLMs better at AI research itself. 
+
+Most of my recent work is not public, but I'm happy to discuss what I can.
