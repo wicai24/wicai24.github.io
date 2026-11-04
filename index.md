@@ -6,6 +6,6 @@ author_profile: true
 classes: landing
 ---
 
-Hi, I’m an incoming EECS PhD student at MIT. Previously, I was a research fellow at Anthropic. I received my BA and MS from UC Berkeley, where I was advised by Dawn Song.
+Hi, I’m an incoming EECS PhD student at MIT. I'm currently (trying to) scale continual learning in industry. Previously, I was a Research Fellow at Anthropic. I received my BA/MS from UC Berkeley, where I was advised by Dawn Song.
 
-My current work focuses on continual learning. Previously, I mostly worked on AI safety and post-training for LLMs.
+My recent interests include optimization and test-time training. Previously, I mostly worked on AI safety and post-training.
